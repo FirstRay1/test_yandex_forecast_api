@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d351fbfc-85db-413a-a83c-21b0a599bcb0" name="Default Changelist" comment="" />
+    <list default="true" id="d351fbfc-85db-413a-a83c-21b0a599bcb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-getforecast.TestAPIYandexForecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/getforecast.TestAPIYandexForecast.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/getforecast.TestAPIYandexForecast/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/getforecast.TestAPIYandexForecast/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-getforecast.TestAPIYandexForecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +54,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -32,6 +73,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48505747" />
@@ -182,53 +225,62 @@
       <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="466" height="466" key="DebuggerActiveHint/0.23.1440.783@0.23.1440.783" timestamp="1576451744212" />
-    <state width="990" height="246" key="GridCell.Tab.0.bottom" timestamp="1576455260116">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state width="981" height="240" key="GridCell.Tab.0.bottom" timestamp="1576476443695">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.0.bottom/0.23.1440.779@0.23.1440.779" timestamp="1576448837713" />
     <state width="990" height="246" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576455260116" />
-    <state width="990" height="246" key="GridCell.Tab.0.center" timestamp="1576455260113">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state width="981" height="240" key="GridCell.Tab.0.bottom/0.23.1440.788@0.23.1440.788" timestamp="1576476443695" />
+    <state width="981" height="240" key="GridCell.Tab.0.center" timestamp="1576476443693">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.0.center/0.23.1440.779@0.23.1440.779" timestamp="1576448837711" />
     <state width="990" height="246" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1576455260113" />
-    <state width="990" height="246" key="GridCell.Tab.0.left" timestamp="1576455260111">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state width="981" height="240" key="GridCell.Tab.0.center/0.23.1440.788@0.23.1440.788" timestamp="1576476443693" />
+    <state width="981" height="240" key="GridCell.Tab.0.left" timestamp="1576476443691">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.0.left/0.23.1440.779@0.23.1440.779" timestamp="1576448837709" />
     <state width="990" height="246" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1576455260111" />
-    <state width="990" height="246" key="GridCell.Tab.0.right" timestamp="1576455260115">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state width="981" height="240" key="GridCell.Tab.0.left/0.23.1440.788@0.23.1440.788" timestamp="1576476443691" />
+    <state width="981" height="240" key="GridCell.Tab.0.right" timestamp="1576476443694">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.0.right/0.23.1440.779@0.23.1440.779" timestamp="1576448837712" />
     <state width="990" height="246" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1576455260115" />
-    <state width="990" height="246" key="GridCell.Tab.1.bottom" timestamp="1576455260118">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state width="981" height="240" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1576476443694" />
+    <state width="981" height="240" key="GridCell.Tab.1.bottom" timestamp="1576476443134">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.1.bottom/0.23.1440.779@0.23.1440.779" timestamp="1576448837333" />
     <state width="990" height="246" key="GridCell.Tab.1.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576455260118" />
-    <state width="990" height="246" key="GridCell.Tab.1.center" timestamp="1576455260117">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state width="981" height="240" key="GridCell.Tab.1.bottom/0.23.1440.788@0.23.1440.788" timestamp="1576476443134" />
+    <state width="981" height="240" key="GridCell.Tab.1.center" timestamp="1576476443131">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.1.center/0.23.1440.779@0.23.1440.779" timestamp="1576448837331" />
     <state width="990" height="246" key="GridCell.Tab.1.center/0.23.1440.783@0.23.1440.783" timestamp="1576455260117" />
-    <state width="990" height="246" key="GridCell.Tab.1.left" timestamp="1576455260116">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state width="981" height="240" key="GridCell.Tab.1.center/0.23.1440.788@0.23.1440.788" timestamp="1576476443131" />
+    <state width="981" height="240" key="GridCell.Tab.1.left" timestamp="1576476443130">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.1.left/0.23.1440.779@0.23.1440.779" timestamp="1576448837330" />
     <state width="990" height="246" key="GridCell.Tab.1.left/0.23.1440.783@0.23.1440.783" timestamp="1576455260116" />
-    <state width="990" height="246" key="GridCell.Tab.1.right" timestamp="1576455260118">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state width="981" height="240" key="GridCell.Tab.1.left/0.23.1440.788@0.23.1440.788" timestamp="1576476443130" />
+    <state width="981" height="240" key="GridCell.Tab.1.right" timestamp="1576476443132">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.1.right/0.23.1440.779@0.23.1440.779" timestamp="1576448837332" />
     <state width="990" height="246" key="GridCell.Tab.1.right/0.23.1440.783@0.23.1440.783" timestamp="1576455260118" />
+    <state width="981" height="240" key="GridCell.Tab.1.right/0.23.1440.788@0.23.1440.788" timestamp="1576476443132" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1576446070415">
       <screen x="0" y="23" width="1440" height="779" />
     </state>
     <state x="208" y="23" key="SettingsEditor/0.23.1440.779@0.23.1440.779" timestamp="1576446070415" />
-    <state x="433" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1576352583470">
-      <screen x="0" y="23" width="1440" height="773" />
+    <state x="433" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1576476135118">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state x="433" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.773@0.23.1440.773" timestamp="1576352583470" />
+    <state x="433" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.788@0.23.1440.788" timestamp="1576476135118" />
   </component>
 </project>
