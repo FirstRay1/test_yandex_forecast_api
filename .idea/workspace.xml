@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d351fbfc-85db-413a-a83c-21b0a599bcb0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UtlreEEOG15x3ExoWLDy7uIrgG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.48505747" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="TestYandexForecast" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="TestYandexForecast" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/masha/Documents/GitHub/Test_yandex_forecast/testng.xml" type="TestNG" nameIsGenerated="true">
+      <module name="TestYandexForecast" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <module name="TestYandexForecast" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="getforecast" />
+      <option name="MAIN_CLASS_NAME" value="getforecast.TestAPIYandexForecast" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d351fbfc-85db-413a-a83c-21b0a599bcb0" name="Default Changelist" comment="" />
+      <created>1576183972631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576183972631</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="415" y="49" key="#/Users/masha/Documents/GitHub/Test_yandex_forecast/testng.xml" timestamp="1576366961383">
+      <screen x="0" y="23" width="1440" height="779" />
+    </state>
+    <state x="415" y="49" key="#/Users/masha/Documents/GitHub/Test_yandex_forecast/testng.xml/0.23.1440.779@0.23.1440.779" timestamp="1576366961383" />
+    <state x="320" y="77" key="#Project_Structure" timestamp="1576438749011">
+      <screen x="0" y="23" width="1440" height="779" />
+    </state>
+    <state x="320" y="77" key="#Project_Structure/0.23.1440.779@0.23.1440.779" timestamp="1576438749011" />
+    <state x="558" y="274" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1576452096093">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state x="558" y="274" key="#com.intellij.debugger.actions.ViewTextAction/0.23.1440.783@0.23.1440.783" timestamp="1576452096093" />
+    <state x="184" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576366950976">
+      <screen x="0" y="23" width="1440" height="779" />
+    </state>
+    <state x="184" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.779@0.23.1440.779" timestamp="1576366950976" />
+    <state x="457" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576366653154">
+      <screen x="0" y="23" width="1440" height="779" />
+    </state>
+    <state x="457" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.779@0.23.1440.779" timestamp="1576366653154" />
+    <state x="610" y="122" key="#xdebugger.evaluate" timestamp="1576452049850">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state x="610" y="122" key="#xdebugger.evaluate/0.23.1440.783@0.23.1440.783" timestamp="1576452049850" />
+    <state x="442" y="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576438865213">
+      <screen x="0" y="23" width="1440" height="779" />
+    </state>
+    <state x="442" y="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.779@0.23.1440.779" timestamp="1576438865213" />
+    <state width="466" height="466" key="DebuggerActiveHint" timestamp="1576451744212">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state width="466" height="466" key="DebuggerActiveHint/0.23.1440.783@0.23.1440.783" timestamp="1576451744212" />
+    <state width="990" height="246" key="GridCell.Tab.0.bottom" timestamp="1576455260116">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state width="699" height="246" key="GridCell.Tab.0.bottom/0.23.1440.779@0.23.1440.779" timestamp="1576448837713" />
+    <state width="990" height="246" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576455260116" />
+    <state width="990" height="246" key="GridCell.Tab.0.center" timestamp="1576455260113">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state width="699" height="246" key="GridCell.Tab.0.center/0.23.1440.779@0.23.1440.779" timestamp="1576448837711" />
+    <state width="990" height="246" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1576455260113" />
+    <state width="990" height="246" key="GridCell.Tab.0.left" timestamp="1576455260111">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state width="699" height="246" key="GridCell.Tab.0.left/0.23.1440.779@0.23.1440.779" timestamp="1576448837709" />
+    <state width="990" height="246" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1576455260111" />
+    <state width="990" height="246" key="GridCell.Tab.0.right" timestamp="1576455260115">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state width="699" height="246" key="GridCell.Tab.0.right/0.23.1440.779@0.23.1440.779" timestamp="1576448837712" />
+    <state width="990" height="246" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1576455260115" />
+    <state width="990" height="246" key="GridCell.Tab.1.bottom" timestamp="1576455260118">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state width="699" height="246" key="GridCell.Tab.1.bottom/0.23.1440.779@0.23.1440.779" timestamp="1576448837333" />
+    <state width="990" height="246" key="GridCell.Tab.1.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576455260118" />
+    <state width="990" height="246" key="GridCell.Tab.1.center" timestamp="1576455260117">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state width="699" height="246" key="GridCell.Tab.1.center/0.23.1440.779@0.23.1440.779" timestamp="1576448837331" />
+    <state width="990" height="246" key="GridCell.Tab.1.center/0.23.1440.783@0.23.1440.783" timestamp="1576455260117" />
+    <state width="990" height="246" key="GridCell.Tab.1.left" timestamp="1576455260116">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state width="699" height="246" key="GridCell.Tab.1.left/0.23.1440.779@0.23.1440.779" timestamp="1576448837330" />
+    <state width="990" height="246" key="GridCell.Tab.1.left/0.23.1440.783@0.23.1440.783" timestamp="1576455260116" />
+    <state width="990" height="246" key="GridCell.Tab.1.right" timestamp="1576455260118">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state width="699" height="246" key="GridCell.Tab.1.right/0.23.1440.779@0.23.1440.779" timestamp="1576448837332" />
+    <state width="990" height="246" key="GridCell.Tab.1.right/0.23.1440.783@0.23.1440.783" timestamp="1576455260118" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1576446070415">
+      <screen x="0" y="23" width="1440" height="779" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.779@0.23.1440.779" timestamp="1576446070415" />
+    <state x="433" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1576352583470">
+      <screen x="0" y="23" width="1440" height="773" />
+    </state>
+    <state x="433" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.773@0.23.1440.773" timestamp="1576352583470" />
+  </component>
+</project>
