@@ -4,6 +4,8 @@ import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 
+//TODO
+// Add methods to construct request with params
 public class APIRequestBuilder {
     public static RequestSpecification SetDefaultRequest() {
 //API basepath
@@ -14,15 +16,14 @@ public class APIRequestBuilder {
 //office shopping center Vodnii
         String testLat = "55.839906";
         String testLon = "37.490297";
-        String testHours ="hours=false";  //to get the most simple answer
+//        String testHours ="hours=false";  //to get the most simple answer
 
         RequestSpecBuilder builder = new RequestSpecBuilder();
         builder.addHeader(headerKey, headerValue);
         builder.addParam(testLat);
         builder.addParam(testLon);
-        builder.addParam(testHours);
+//        builder.addParam(testHours);
         RequestSpecification requestSpec = builder.build();
         return requestSpec;
     }
-
 }

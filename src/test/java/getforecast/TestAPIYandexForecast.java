@@ -11,7 +11,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 public class TestAPIYandexForecast {
 
     @Test
-    public void CheckAuthorization(){
+    public void CheckValidAuthorization(){
         given().
         spec(APIRequestBuilder.SetDefaultRequest()).
         when().
@@ -25,6 +25,7 @@ public class TestAPIYandexForecast {
     public void CheckDefaultJSONSchema(){
         ValidatableResponse response = given().
         spec(APIRequestBuilder.SetDefaultRequest()).
+        param("hours", "false").   //to get the most simple answer
         when().
         get().
         then().
@@ -36,7 +37,7 @@ public class TestAPIYandexForecast {
 /*TODO
 !Logging
 Check for:
-1. Authorization with wrong header
+1. Authorization with wrong header   --> Done InvalidAPIRequests
 2. Request without obligatory params
 3. JSONSchema with "hours"
 4. JSONSchema with "extra"
@@ -46,5 +47,4 @@ Check for:
 8. Correlation "info.lat", "info.lat" between request params
 
  */
-
 }

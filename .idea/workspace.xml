@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d351fbfc-85db-413a-a83c-21b0a599bcb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getforecast/InvalidAPIRequests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-getforecast.TestAPIYandexForecast.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/getforecast.TestAPIYandexForecast.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/getforecast.TestAPIYandexForecast/Command line test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/getforecast.TestAPIYandexForecast/Command line test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-getforecast.TestAPIYandexForecast.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/Command line test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/getforecast.TestAPIYandexForecast/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/APIRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/APIRequestBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getforecast/TestAPIYandexForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getforecast/TestAPIYandexForecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +47,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48505747" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/masha/Documents/GitHub/Test_yandex_forecast/testng.xml">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="TestYandexForecast" />
       <option name="VM_PARAMETERS" />
@@ -127,6 +95,135 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvalidAPIRequests.CheckInvalidHeaderKey" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_yandex_forecast_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getforecast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="getforecast" />
+      <option name="MAIN_CLASS_NAME" value="getforecast.InvalidAPIRequests" />
+      <option name="METHOD_NAME" value="CheckInvalidHeaderKey" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvalidAPIRequests.CheckInvalidHeaderValue" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_yandex_forecast_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getforecast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="getforecast" />
+      <option name="MAIN_CLASS_NAME" value="getforecast.InvalidAPIRequests" />
+      <option name="METHOD_NAME" value="CheckInvalidHeaderValue" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvalidAPIRequests.CheckInvalidURL" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_yandex_forecast_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getforecast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="getforecast" />
+      <option name="MAIN_CLASS_NAME" value="getforecast.InvalidAPIRequests" />
+      <option name="METHOD_NAME" value="CheckInvalidURL" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvalidAPIRequests.CheckWithoutObligatoryParams" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_yandex_forecast_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getforecast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="getforecast" />
+      <option name="MAIN_CLASS_NAME" value="getforecast.InvalidAPIRequests" />
+      <option name="METHOD_NAME" value="CheckWithoutObligatoryParams" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAPIYandexForecast" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_yandex_forecast_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getforecast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="getforecast" />
+      <option name="MAIN_CLASS_NAME" value="getforecast.TestAPIYandexForecast" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/masha/Documents/GitHub/Test_yandex_forecast/testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="TestYandexForecast" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -166,6 +263,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestAPIYandexForecast" />
+        <item itemvalue="TestNG.InvalidAPIRequests.CheckWithoutObligatoryParams" />
+        <item itemvalue="TestNG.InvalidAPIRequests.CheckInvalidHeaderKey" />
+        <item itemvalue="TestNG.InvalidAPIRequests.CheckInvalidHeaderValue" />
+        <item itemvalue="TestNG.InvalidAPIRequests.CheckInvalidURL" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -225,62 +331,71 @@
       <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="466" height="466" key="DebuggerActiveHint/0.23.1440.783@0.23.1440.783" timestamp="1576451744212" />
-    <state width="981" height="240" key="GridCell.Tab.0.bottom" timestamp="1576476443695">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state width="1386" height="240" key="GridCell.Tab.0.bottom" timestamp="1576531981662">
+      <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.0.bottom/0.23.1440.779@0.23.1440.779" timestamp="1576448837713" />
-    <state width="990" height="246" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576455260116" />
+    <state width="1386" height="240" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576531981662" />
     <state width="981" height="240" key="GridCell.Tab.0.bottom/0.23.1440.788@0.23.1440.788" timestamp="1576476443695" />
-    <state width="981" height="240" key="GridCell.Tab.0.center" timestamp="1576476443693">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state width="1386" height="240" key="GridCell.Tab.0.center" timestamp="1576531981658">
+      <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.0.center/0.23.1440.779@0.23.1440.779" timestamp="1576448837711" />
-    <state width="990" height="246" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1576455260113" />
+    <state width="1386" height="240" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1576531981658" />
     <state width="981" height="240" key="GridCell.Tab.0.center/0.23.1440.788@0.23.1440.788" timestamp="1576476443693" />
-    <state width="981" height="240" key="GridCell.Tab.0.left" timestamp="1576476443691">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state width="1386" height="240" key="GridCell.Tab.0.left" timestamp="1576531981655">
+      <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.0.left/0.23.1440.779@0.23.1440.779" timestamp="1576448837709" />
-    <state width="990" height="246" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1576455260111" />
+    <state width="1386" height="240" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1576531981655" />
     <state width="981" height="240" key="GridCell.Tab.0.left/0.23.1440.788@0.23.1440.788" timestamp="1576476443691" />
-    <state width="981" height="240" key="GridCell.Tab.0.right" timestamp="1576476443694">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state width="1386" height="240" key="GridCell.Tab.0.right" timestamp="1576531981660">
+      <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.0.right/0.23.1440.779@0.23.1440.779" timestamp="1576448837712" />
-    <state width="990" height="246" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1576455260115" />
+    <state width="1386" height="240" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1576531981660" />
     <state width="981" height="240" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1576476443694" />
-    <state width="981" height="240" key="GridCell.Tab.1.bottom" timestamp="1576476443134">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state width="978" height="240" key="GridCell.Tab.1.bottom" timestamp="1576531981089">
+      <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.1.bottom/0.23.1440.779@0.23.1440.779" timestamp="1576448837333" />
-    <state width="990" height="246" key="GridCell.Tab.1.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576455260118" />
+    <state width="978" height="240" key="GridCell.Tab.1.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576531981089" />
     <state width="981" height="240" key="GridCell.Tab.1.bottom/0.23.1440.788@0.23.1440.788" timestamp="1576476443134" />
-    <state width="981" height="240" key="GridCell.Tab.1.center" timestamp="1576476443131">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state width="978" height="240" key="GridCell.Tab.1.center" timestamp="1576531981087">
+      <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.1.center/0.23.1440.779@0.23.1440.779" timestamp="1576448837331" />
-    <state width="990" height="246" key="GridCell.Tab.1.center/0.23.1440.783@0.23.1440.783" timestamp="1576455260117" />
+    <state width="978" height="240" key="GridCell.Tab.1.center/0.23.1440.783@0.23.1440.783" timestamp="1576531981087" />
     <state width="981" height="240" key="GridCell.Tab.1.center/0.23.1440.788@0.23.1440.788" timestamp="1576476443131" />
-    <state width="981" height="240" key="GridCell.Tab.1.left" timestamp="1576476443130">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state width="978" height="240" key="GridCell.Tab.1.left" timestamp="1576531981086">
+      <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.1.left/0.23.1440.779@0.23.1440.779" timestamp="1576448837330" />
-    <state width="990" height="246" key="GridCell.Tab.1.left/0.23.1440.783@0.23.1440.783" timestamp="1576455260116" />
+    <state width="978" height="240" key="GridCell.Tab.1.left/0.23.1440.783@0.23.1440.783" timestamp="1576531981086" />
     <state width="981" height="240" key="GridCell.Tab.1.left/0.23.1440.788@0.23.1440.788" timestamp="1576476443130" />
-    <state width="981" height="240" key="GridCell.Tab.1.right" timestamp="1576476443132">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state width="978" height="240" key="GridCell.Tab.1.right" timestamp="1576531981088">
+      <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state width="699" height="246" key="GridCell.Tab.1.right/0.23.1440.779@0.23.1440.779" timestamp="1576448837332" />
-    <state width="990" height="246" key="GridCell.Tab.1.right/0.23.1440.783@0.23.1440.783" timestamp="1576455260118" />
+    <state width="978" height="240" key="GridCell.Tab.1.right/0.23.1440.783@0.23.1440.783" timestamp="1576531981088" />
     <state width="981" height="240" key="GridCell.Tab.1.right/0.23.1440.788@0.23.1440.788" timestamp="1576476443132" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1576446070415">
       <screen x="0" y="23" width="1440" height="779" />
     </state>
     <state x="208" y="23" key="SettingsEditor/0.23.1440.779@0.23.1440.779" timestamp="1576446070415" />
-    <state x="433" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1576476135118">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state x="433" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1576520905163">
+      <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state x="433" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.773@0.23.1440.773" timestamp="1576352583470" />
+    <state x="433" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.783@0.23.1440.783" timestamp="1576520905163" />
     <state x="433" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.788@0.23.1440.788" timestamp="1576476135118" />
+    <state x="384" y="204" key="git4idea.merge.GitPullDialog" timestamp="1576526742605">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state x="384" y="204" key="git4idea.merge.GitPullDialog/0.23.1440.783@0.23.1440.783" timestamp="1576526742605" />
+    <state x="379" y="130" width="670" height="676" key="search.everywhere.popup" timestamp="1576523713696">
+      <screen x="0" y="23" width="1440" height="783" />
+    </state>
+    <state x="379" y="130" width="670" height="676" key="search.everywhere.popup/0.23.1440.783@0.23.1440.783" timestamp="1576523713696" />
   </component>
 </project>

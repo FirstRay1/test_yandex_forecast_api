@@ -1,0 +1,807 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": [
+    "now",
+    "now_dt",
+    "info",
+    "fact",
+    "forecasts"
+  ],
+  "properties": {
+    "now": {
+      "type": "number"
+    },
+    "now_dt": {
+      "type": "string",
+      "pattern": "^(.*)$"
+    },
+    "info": {
+      "type": "object",
+      "required": [
+        "f",
+        "n",
+        "nr",
+        "ns",
+        "nsr",
+        "p",
+        "lat",
+        "lon",
+        "tzinfo",
+        "def_pressure_mm",
+        "def_pressure_pa",
+        "_h",
+        "url"
+      ],
+      "properties": {
+        "f": {
+          "type": "boolean"
+        },
+        "n": {
+          "type": "boolean"
+        },
+        "nr": {
+          "type": "boolean"
+        },
+        "ns": {
+          "type": "boolean"
+        },
+        "nsr": {
+          "type": "boolean"
+        },
+        "p": {
+          "type": "boolean"
+        },
+        "lat": {
+          "type": "number"
+        },
+        "lon": {
+          "type": "number"
+        },
+        "tzinfo": {
+          "type": "object",
+          "required": [
+            "name",
+            "abbr",
+            "offset",
+            "dst"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "pattern": "^(.*)$"
+            },
+            "abbr": {
+              "type": "string",
+              "pattern": "^(.*)$"
+            },
+            "offset": {
+              "type": "number"
+            },
+            "dst": {
+              "type": "boolean"
+            }
+          }
+        },
+        "def_pressure_mm": {
+          "type": "number"
+        },
+        "def_pressure_pa": {
+          "type": "number"
+        },
+        "_h": {
+          "type": "boolean"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "fact": {
+      "type": "object",
+      "required": [
+        "temp",
+        "feels_like",
+        "icon",
+        "condition",
+        "wind_speed",
+        "wind_gust",
+        "wind_dir",
+        "pressure_mm",
+        "pressure_pa",
+        "humidity",
+        "uv_index",
+        "soil_temp",
+        "soil_moisture",
+        "daytime",
+        "polar",
+        "season",
+        "obs_time",
+        "accum_prec",
+        "source"
+      ],
+      "properties": {
+        "temp": {
+          "type": "number"
+        },
+        "feels_like": {
+          "type": "number"
+        },
+        "icon": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "condition": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_gust": {
+          "type": "number"
+        },
+        "wind_dir": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "pressure_mm": {
+          "type": "number"
+        },
+        "pressure_pa": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "number"
+        },
+        "uv_index": {
+          "type": "number"
+        },
+        "soil_temp": {
+          "type": "number"
+        },
+        "soil_moisture": {
+          "type": "number"
+        },
+        "daytime": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "polar": {
+          "type": "boolean"
+        },
+        "season": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "obs_time": {
+          "type": "number"
+        },
+        "accum_prec": {
+          "type": "object",
+          "required": [
+            "1",
+            "3",
+            "7"
+          ],
+          "properties": {
+            "1": {
+              "type": "number"
+            },
+            "3": {
+              "type": "number"
+            },
+            "7": {
+              "type": "number"
+            }
+          }
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "forecasts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "date",
+          "date_ts",
+          "week",
+          "sunrise",
+          "sunset",
+          "rise_begin",
+          "set_end",
+          "moon_code",
+          "moon_text",
+          "parts"
+        ],
+        "properties": {
+          "date": {
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "date_ts": {
+            "type": "number"
+          },
+          "week": {
+            "type": "number"
+          },
+          "sunrise": {
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "sunset": {
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "rise_begin": {
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "set_end": {
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "moon_code": {
+            "type": "number"
+          },
+          "moon_text": {
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "parts": {
+            "type": "object",
+            "required": [
+              "night",
+              "morning",
+              "day",
+              "evening",
+              "day_short",
+              "night_short"
+            ],
+            "properties": {
+              "night": {
+                "type": "object",
+                "required": [
+                  "_source",
+                  "temp_min",
+                  "temp_max",
+                  "temp_avg",
+                  "feels_like",
+                  "icon",
+                  "condition",
+                  "daytime",
+                  "polar",
+                  "wind_speed",
+                  "wind_gust",
+                  "wind_dir",
+                  "pressure_mm",
+                  "pressure_pa",
+                  "humidity",
+                  "uv_index",
+                  "soil_temp",
+                  "soil_moisture",
+                  "prec_mm",
+                  "prec_period",
+                  "prec_prob"
+                ],
+                "properties": {
+                  "_source": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "temp_min": {
+                    "type": "number"
+                  },
+                  "temp_max": {
+                    "type": "number"
+                  },
+                  "temp_avg": {
+                    "type": "number"
+                  },
+                  "feels_like": {
+                    "type": "number"
+                  },
+                  "icon": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "condition": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "daytime": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "polar": {
+                    "type": "boolean"
+                  },
+                  "wind_speed": {
+                    "type": "number"
+                  },
+                  "wind_gust": {
+                    "type": "number"
+                  },
+                  "wind_dir": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "pressure_mm": {
+                    "type": "number"
+                  },
+                  "pressure_pa": {
+                    "type": "number"
+                  },
+                  "humidity": {
+                    "type": "number"
+                  },
+                  "uv_index": {
+                    "type": "number"
+                  },
+                  "soil_temp": {
+                    "type": "number"
+                  },
+                  "soil_moisture": {
+                    "type": "number"
+                  },
+                  "prec_mm": {
+                    "type": "number"
+                  },
+                  "prec_period": {
+                    "type": "number"
+                  },
+                  "prec_prob": {
+                    "type": "number"
+                  }
+                }
+              },
+              "morning": {
+                "type": "object",
+                "required": [
+                  "_source",
+                  "temp_min",
+                  "temp_max",
+                  "temp_avg",
+                  "feels_like",
+                  "icon",
+                  "condition",
+                  "daytime",
+                  "polar",
+                  "wind_speed",
+                  "wind_gust",
+                  "wind_dir",
+                  "pressure_mm",
+                  "pressure_pa",
+                  "humidity",
+                  "uv_index",
+                  "soil_temp",
+                  "soil_moisture",
+                  "prec_mm",
+                  "prec_period",
+                  "prec_prob"
+                ],
+                "properties": {
+                  "_source": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "temp_min": {
+                    "type": "number"
+                  },
+                  "temp_max": {
+                    "type": "number"
+                  },
+                  "temp_avg": {
+                    "type": "number"
+                  },
+                  "feels_like": {
+                    "type": "number"
+                  },
+                  "icon": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "condition": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "daytime": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "polar": {
+                    "type": "boolean"
+                  },
+                  "wind_speed": {
+                    "type": "number"
+                  },
+                  "wind_gust": {
+                    "type": "number"
+                  },
+                  "wind_dir": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "pressure_mm": {
+                    "type": "number"
+                  },
+                  "pressure_pa": {
+                    "type": "number"
+                  },
+                  "humidity": {
+                    "type": "number"
+                  },
+                  "uv_index": {
+                    "type": "number"
+                  },
+                  "soil_temp": {
+                    "type": "number"
+                  },
+                  "soil_moisture": {
+                    "type": "number"
+                  },
+                  "prec_mm": {
+                    "type": "number"
+                  },
+                  "prec_period": {
+                    "type": "number"
+                  },
+                  "prec_prob": {
+                    "type": "number"
+                  }
+                }
+              },
+              "day": {
+                "type": "object",
+                "required": [
+                  "_source",
+                  "temp_min",
+                  "temp_max",
+                  "temp_avg",
+                  "feels_like",
+                  "icon",
+                  "condition",
+                  "daytime",
+                  "polar",
+                  "wind_speed",
+                  "wind_gust",
+                  "wind_dir",
+                  "pressure_mm",
+                  "pressure_pa",
+                  "humidity",
+                  "uv_index",
+                  "soil_temp",
+                  "soil_moisture",
+                  "prec_mm",
+                  "prec_period",
+                  "prec_prob"
+                ],
+                "properties": {
+                  "_source": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "temp_min": {
+                    "type": "number"
+                  },
+                  "temp_max": {
+                    "type": "number"
+                  },
+                  "temp_avg": {
+                    "type": "number"
+                  },
+                  "feels_like": {
+                    "type": "number"
+                  },
+                  "icon": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "condition": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "daytime": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "polar": {
+                    "type": "boolean"
+                  },
+                  "wind_speed": {
+                    "type": "number"
+                  },
+                  "wind_gust": {
+                    "type": "number"
+                  },
+                  "wind_dir": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "pressure_mm": {
+                    "type": "number"
+                  },
+                  "pressure_pa": {
+                    "type": "number"
+                  },
+                  "humidity": {
+                    "type": "number"
+                  },
+                  "uv_index": {
+                    "type": "number"
+                  },
+                  "soil_temp": {
+                    "type": "number"
+                  },
+                  "soil_moisture": {
+                    "type": "number"
+                  },
+                  "prec_mm": {
+                    "type": "number"
+                  },
+                  "prec_period": {
+                    "type": "number"
+                  },
+                  "prec_prob": {
+                    "type": "number"
+                  }
+                }
+              },
+              "evening": {
+                "type": "object",
+                "required": [
+                  "_source",
+                  "temp_min",
+                  "temp_max",
+                  "temp_avg",
+                  "feels_like",
+                  "icon",
+                  "condition",
+                  "daytime",
+                  "polar",
+                  "wind_speed",
+                  "wind_gust",
+                  "wind_dir",
+                  "pressure_mm",
+                  "pressure_pa",
+                  "humidity",
+                  "uv_index",
+                  "soil_temp",
+                  "soil_moisture",
+                  "prec_mm",
+                  "prec_period",
+                  "prec_prob"
+                ],
+                "properties": {
+                  "_source": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "temp_min": {
+                    "type": "number"
+                  },
+                  "temp_max": {
+                    "type": "number"
+                  },
+                  "temp_avg": {
+                    "type": "number"
+                  },
+                  "feels_like": {
+                    "type": "number"
+                  },
+                  "icon": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "condition": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "daytime": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "polar": {
+                    "type": "boolean"
+                  },
+                  "wind_speed": {
+                    "type": "number"
+                  },
+                  "wind_gust": {
+                    "type": "number"
+                  },
+                  "wind_dir": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "pressure_mm": {
+                    "type": "number"
+                  },
+                  "pressure_pa": {
+                    "type": "number"
+                  },
+                  "humidity": {
+                    "type": "number"
+                  },
+                  "uv_index": {
+                    "type": "number"
+                  },
+                  "soil_temp": {
+                    "type": "number"
+                  },
+                  "soil_moisture": {
+                    "type": "number"
+                  },
+                  "prec_mm": {
+                    "type": "number"
+                  },
+                  "prec_period": {
+                    "type": "number"
+                  },
+                  "prec_prob": {
+                    "type": "number"
+                  }
+                }
+              },
+              "day_short": {
+                "type": "object",
+                "required": [
+                  "_source",
+                  "temp",
+                  "temp_min",
+                  "feels_like",
+                  "icon",
+                  "condition",
+                  "wind_speed",
+                  "wind_gust",
+                  "wind_dir",
+                  "pressure_mm",
+                  "pressure_pa",
+                  "humidity",
+                  "uv_index",
+                  "soil_temp",
+                  "soil_moisture",
+                  "prec_mm",
+                  "prec_prob"
+                ],
+                "properties": {
+                  "_source": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "temp": {
+                    "type": "number"
+                  },
+                  "temp_min": {
+                    "type": "number"
+                  },
+                  "feels_like": {
+                    "type": "number"
+                  },
+                  "icon": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "condition": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "wind_speed": {
+                    "type": "number"
+                  },
+                  "wind_gust": {
+                    "type": "number"
+                  },
+                  "wind_dir": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "pressure_mm": {
+                    "type": "number"
+                  },
+                  "pressure_pa": {
+                    "type": "number"
+                  },
+                  "humidity": {
+                    "type": "number"
+                  },
+                  "uv_index": {
+                    "type": "number"
+                  },
+                  "soil_temp": {
+                    "type": "number"
+                  },
+                  "soil_moisture": {
+                    "type": "number"
+                  },
+                  "prec_mm": {
+                    "type": "number"
+                  },
+                  "prec_prob": {
+                    "type": "number"
+                  }
+                }
+              },
+              "night_short": {
+                "type": "object",
+                "required": [
+                  "temp",
+                  "feels_like",
+                  "icon",
+                  "condition",
+                  "wind_speed",
+                  "wind_gust",
+                  "wind_dir",
+                  "pressure_mm",
+                  "pressure_pa",
+                  "humidity",
+                  "uv_index",
+                  "soil_temp",
+                  "soil_moisture",
+                  "prec_mm",
+                  "prec_prob"
+                ],
+                "properties": {
+                  "temp": {
+                    "type": "number"
+                  },
+                  "feels_like": {
+                    "type": "number"
+                  },
+                  "icon": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "condition": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "wind_speed": {
+                    "type": "number"
+                  },
+                  "wind_gust": {
+                    "type": "number"
+                  },
+                  "wind_dir": {
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "pressure_mm": {
+                    "type": "number"
+                  },
+                  "pressure_pa": {
+                    "type": "number"
+                  },
+                  "humidity": {
+                    "type": "number"
+                  },
+                  "uv_index": {
+                    "type": "number"
+                  },
+                  "soil_temp": {
+                    "type": "number"
+                  },
+                  "soil_moisture": {
+                    "type": "number"
+                  },
+                  "prec_mm": {
+                    "type": "number"
+                  },
+                  "prec_prob": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
