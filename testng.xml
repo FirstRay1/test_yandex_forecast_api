@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="All Tests Suite">
     <test name="Tests for InvalidRequests">
         <classes>
             <class name="getforecast.InvalidAPIRequests"/>
@@ -9,6 +9,11 @@
     <test name="Default params tests for YandexForecast">
         <classes>
             <class name="getforecast.TestAPIYandexForecast"/>
+        </classes>
+    </test>
+    <test name="Independent params tests for YandexForecast">
+        <classes>
+            <class name="getforecast.TestRequestedParamsIndependentResponses"/>
         </classes>
     </test>
 </suite>

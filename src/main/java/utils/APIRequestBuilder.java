@@ -20,9 +20,8 @@ public class APIRequestBuilder {
 
         RequestSpecBuilder builder = new RequestSpecBuilder();
         builder.addHeader(headerKey, headerValue);
-        builder.addParam(testLat);
-        builder.addParam(testLon);
-//        builder.addParam(testHours);
+        builder.addParam("lat", testLat);
+        builder.addParam("lon", testLon);
         RequestSpecification requestSpec = builder.build();
         return requestSpec;
     }

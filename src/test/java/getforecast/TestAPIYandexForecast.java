@@ -22,7 +22,7 @@ public class TestAPIYandexForecast {
         System.out.printf("\nDefaultParamsAuthorized\n");
     }
     @Test
-    public void CheckDefaultJSONSchema(){
+    public void CheckDefaultHoursJSONSchema(){
         ValidatableResponse response = given().
         spec(APIRequestBuilder.SetDefaultRequest()).
         param("hours", "false").   //to get the most simple answer
@@ -32,19 +32,22 @@ public class TestAPIYandexForecast {
         contentType(ContentType.JSON).assertThat().
         body(matchesJsonSchemaInClasspath("default.json"));
         String responseBody = response.extract().asString();
-        System.out.printf("\nDefaultDefaultJSONSchemaChecked\n");
+        System.out.printf("\nDefaultHoursJSONSchemaChecked\n");
     }
+
 /*TODO
 !Logging
 Check for:
-1. Authorization with wrong header   --> Done InvalidAPIRequests
-2. Request without obligatory params
+1. Authorization with wrong header                            --> DONE InvalidAPIRequests
+2. Request without obligatory params                          --> Invalid test
+Spec(https://yandex.ru/dev/weather/doc/dg/concepts/forecast-test-docpage/) error, server returns 200 and valid schema
+with some data. So there are no obligatory params
 3. JSONSchema with "hours"
 4. JSONSchema with "extra"
 5. "info.url" for all "lang"
-6. Requests with different "limits" (valid/invalid)
-7. Correlation between "now" and "now_dt"
-8. Correlation "info.lat", "info.lat" between request params
+6. Requests with different "limit" (valid/invalid)
+7. Correlation between "now" and "now_dt"                     --> DONE TestRequestedParamsIndependentResponses
+8. Correlation "info.lat", "info.lon" between request params  --> Failing test
 
  */
 }
