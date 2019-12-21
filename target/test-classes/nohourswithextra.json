@@ -20,7 +20,7 @@
     "info": {
       "type": "object",
       "required": [
-        "f2",
+        "f",
         "n",
         "nr",
         "ns",
