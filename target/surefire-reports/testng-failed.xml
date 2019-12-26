@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="getforecast.TestAPIYandexForecast">
+        <methods>
+          <include name="CheckLimitParam" invocation-numbers="6"/>
+        </methods>
+      </class> <!-- getforecast.TestAPIYandexForecast -->
+      <class name="getforecast.TestRequestedParamsIndependentResponses">
+        <methods>
+          <include name="CheckResponseLatLon"/>
+        </methods>
+      </class> <!-- getforecast.TestRequestedParamsIndependentResponses -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

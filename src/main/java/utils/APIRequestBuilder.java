@@ -16,7 +16,13 @@ public class APIRequestBuilder {
 //office shopping center Vodnii
         String testLat = "55.839906";
         String testLon = "37.490297";
-//        String testHours ="hours=false";  //to get the most simple answer
+
+// TODO Test for London failing for some limit tests
+
+//        String testLat = "51.507222";
+//        String testLon = "-0.1275";
+
+//      String testHours ="hours=false";  //to get the most simple answer
 
         RequestSpecBuilder builder = new RequestSpecBuilder();
         builder.addHeader(headerKey, headerValue);

@@ -118,7 +118,6 @@
         "polar",
         "season",
         "obs_time",
-        "accum_prec",
         "source",
         "prec_type",
         "prec_strength",
@@ -178,25 +177,6 @@
         },
         "obs_time": {
           "type": "number"
-        },
-        "accum_prec": {
-          "type": "object",
-          "required": [
-            "1",
-            "3",
-            "7"
-          ],
-          "properties": {
-            "1": {
-              "type": "number"
-            },
-            "3": {
-              "type": "number"
-            },
-            "7": {
-              "type": "number"
-            }
-          }
         },
         "source": {
           "type": "string",

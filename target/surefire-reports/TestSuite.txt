@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.962 sec <<< FAILURE!
+CheckResponseLatLon(getforecast.TestRequestedParamsIndependentResponses)  Time elapsed: 3.634 sec  <<< FAILURE!
+java.lang.AssertionError: Response and request lat are different expected [55.839906] but found [55.839905]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at getforecast.TestRequestedParamsIndependentResponses.CheckResponseLatLon(TestRequestedParamsIndependentResponses.java:41)
+
+CheckLimitParam(getforecast.TestAPIYandexForecast)  Time elapsed: 0.189 sec  <<< FAILURE!
+java.lang.AssertionError: limit = 8 expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at getforecast.TestAPIYandexForecast.CheckLimitParam(TestAPIYandexForecast.java:162)
+

@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="d351fbfc-85db-413a-a83c-21b0a599bcb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/APIRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/APIRequestBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/getforecast/TestAPIYandexForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getforecast/TestAPIYandexForecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getforecast/TestRequestedParamsIndependentResponses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getforecast/TestRequestedParamsIndependentResponses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/default — копия.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/nohourswithextra.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/nohourswithextra.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/withextra.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/withextra.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/withhours.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/withhours.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/test_yandex_forecast_api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/test_yandex_forecast_api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/default — копия.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,58 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAPIYandexForecast.CheckDefaultWithHoursExtraJSONSchema" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test_yandex_forecast_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="getforecast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="getforecast" />
-      <option name="MAIN_CLASS_NAME" value="getforecast.TestAPIYandexForecast" />
-      <option name="METHOD_NAME" value="CheckDefaultWithHoursExtraJSONSchema" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAPIYandexForecast.CheckDefaultWithHoursJSONSchema" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test_yandex_forecast_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="getforecast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="getforecast" />
-      <option name="MAIN_CLASS_NAME" value="getforecast.TestAPIYandexForecast" />
-      <option name="METHOD_NAME" value="CheckDefaultWithHoursJSONSchema" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestAPIYandexForecast.CheckLangURL" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_yandex_forecast_api" />
       <extension name="coverage">
@@ -196,7 +154,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAPIYandexForecast.CheckValidAuthorization" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAPIYandexForecast.CheckLimitParam" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_yandex_forecast_api" />
       <extension name="coverage">
         <pattern>
@@ -207,7 +165,59 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="getforecast" />
       <option name="MAIN_CLASS_NAME" value="getforecast.TestAPIYandexForecast" />
-      <option name="METHOD_NAME" value="CheckValidAuthorization" />
+      <option name="METHOD_NAME" value="CheckLimitParam" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRequestedParamsIndependentResponses.CheckResponseLatLon" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_yandex_forecast_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getforecast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="getforecast" />
+      <option name="MAIN_CLASS_NAME" value="getforecast.TestRequestedParamsIndependentResponses" />
+      <option name="METHOD_NAME" value="CheckResponseLatLon" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRequestedParamsIndependentResponses.CheckServerTime" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_yandex_forecast_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getforecast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="getforecast" />
+      <option name="MAIN_CLASS_NAME" value="getforecast.TestRequestedParamsIndependentResponses" />
+      <option name="METHOD_NAME" value="CheckServerTime" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -263,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRequestedParamsIndependentResponses.CheckResponseLatLon" />
+        <item itemvalue="TestNG.TestAPIYandexForecast.CheckLimitParam" />
+        <item itemvalue="TestNG.TestRequestedParamsIndependentResponses.CheckServerTime" />
         <item itemvalue="TestNG.TestAPIYandexForecast.CheckLangURL" />
         <item itemvalue="TestNG.TestAPIYandexForecast.CheckDefaultNOHoursWithExtraJSONSchema" />
-        <item itemvalue="TestNG.TestAPIYandexForecast.CheckDefaultWithHoursExtraJSONSchema" />
-        <item itemvalue="TestNG.TestAPIYandexForecast.CheckDefaultWithHoursJSONSchema" />
-        <item itemvalue="TestNG.TestAPIYandexForecast.CheckValidAuthorization" />
       </list>
     </recent_temporary>
   </component>
@@ -305,10 +315,11 @@
       <screen x="0" y="23" width="1440" height="779" />
     </state>
     <state x="320" y="77" key="#Project_Structure/0.23.1440.779@0.23.1440.779" timestamp="1576438749011" />
-    <state x="558" y="274" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1576452096093">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state x="558" y="276" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1577221733142">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state x="558" y="274" key="#com.intellij.debugger.actions.ViewTextAction/0.23.1440.783@0.23.1440.783" timestamp="1576452096093" />
+    <state x="558" y="276" key="#com.intellij.debugger.actions.ViewTextAction/0.23.1440.788@0.23.1440.788" timestamp="1577221733141" />
     <state x="184" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576366950976">
       <screen x="0" y="23" width="1440" height="779" />
     </state>
@@ -325,6 +336,10 @@
       <screen x="0" y="23" width="1440" height="779" />
     </state>
     <state x="457" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.779@0.23.1440.779" timestamp="1576366653154" />
+    <state x="273" y="212" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1577129952281">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="273" y="212" key="#org.jetbrains.debugger.memory.view.InstancesWindow/0.0.1440.900@0.0.1440.900" timestamp="1577129952281" />
     <state x="610" y="122" key="#xdebugger.evaluate" timestamp="1576452049850">
       <screen x="0" y="23" width="1440" height="783" />
     </state>
@@ -333,81 +348,97 @@
       <screen x="0" y="23" width="1440" height="779" />
     </state>
     <state x="442" y="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.779@0.23.1440.779" timestamp="1576438865213" />
-    <state width="466" height="469" key="DebuggerActiveHint" timestamp="1576617532580">
+    <state width="493" height="469" key="DebuggerActiveHint" timestamp="1577223100080">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="466" height="466" key="DebuggerActiveHint/0.23.1440.783@0.23.1440.783" timestamp="1576451744212" />
-    <state width="466" height="469" key="DebuggerActiveHint/0.23.1440.788@0.23.1440.788" timestamp="1576617532580" />
-    <state width="1386" height="240" key="GridCell.Tab.0.bottom" timestamp="1576956754858">
+    <state width="493" height="469" key="DebuggerActiveHint/0.23.1440.788@0.23.1440.788" timestamp="1577223100080" />
+    <state width="1386" height="288" key="GridCell.Tab.0.bottom" timestamp="1577400109665">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577220758887" />
     <state width="699" height="246" key="GridCell.Tab.0.bottom/0.23.1440.779@0.23.1440.779" timestamp="1576448837713" />
     <state width="1386" height="240" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576531981662" />
-    <state width="1386" height="240" key="GridCell.Tab.0.bottom/0.23.1440.788@0.23.1440.788" timestamp="1576956754858" />
+    <state width="1386" height="288" key="GridCell.Tab.0.bottom/0.23.1440.788@0.23.1440.788" timestamp="1577400109665" />
     <state width="1386" height="240" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1576955939445" />
-    <state width="1386" height="240" key="GridCell.Tab.0.center" timestamp="1576956754855">
+    <state width="1386" height="288" key="GridCell.Tab.0.center" timestamp="1577400109664">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577220758885" />
     <state width="699" height="246" key="GridCell.Tab.0.center/0.23.1440.779@0.23.1440.779" timestamp="1576448837711" />
     <state width="1386" height="240" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1576531981658" />
-    <state width="1386" height="240" key="GridCell.Tab.0.center/0.23.1440.788@0.23.1440.788" timestamp="1576956754855" />
+    <state width="1386" height="288" key="GridCell.Tab.0.center/0.23.1440.788@0.23.1440.788" timestamp="1577400109664" />
     <state width="1386" height="240" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1576955939437" />
-    <state width="1386" height="240" key="GridCell.Tab.0.left" timestamp="1576956754854">
+    <state width="1386" height="288" key="GridCell.Tab.0.left" timestamp="1577400109663">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577220758884" />
     <state width="699" height="246" key="GridCell.Tab.0.left/0.23.1440.779@0.23.1440.779" timestamp="1576448837709" />
     <state width="1386" height="240" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1576531981655" />
-    <state width="1386" height="240" key="GridCell.Tab.0.left/0.23.1440.788@0.23.1440.788" timestamp="1576956754854" />
+    <state width="1386" height="288" key="GridCell.Tab.0.left/0.23.1440.788@0.23.1440.788" timestamp="1577400109663" />
     <state width="1386" height="240" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1576955939430" />
-    <state width="1386" height="240" key="GridCell.Tab.0.right" timestamp="1576956754857">
+    <state width="1386" height="288" key="GridCell.Tab.0.right" timestamp="1577400109665">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577220758886" />
     <state width="699" height="246" key="GridCell.Tab.0.right/0.23.1440.779@0.23.1440.779" timestamp="1576448837712" />
     <state width="1386" height="240" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1576531981660" />
-    <state width="1386" height="240" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1576956754857" />
+    <state width="1386" height="288" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1577400109665" />
     <state width="1386" height="240" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1576955939440" />
-    <state width="1386" height="240" key="GridCell.Tab.1.bottom" timestamp="1576956754867">
+    <state width="1386" height="288" key="GridCell.Tab.1.bottom" timestamp="1577400109667">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
+    <state width="1398" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577220758872" />
     <state width="699" height="246" key="GridCell.Tab.1.bottom/0.23.1440.779@0.23.1440.779" timestamp="1576448837333" />
     <state width="978" height="240" key="GridCell.Tab.1.bottom/0.23.1440.783@0.23.1440.783" timestamp="1576531981089" />
-    <state width="1386" height="240" key="GridCell.Tab.1.bottom/0.23.1440.788@0.23.1440.788" timestamp="1576956754867" />
+    <state width="1386" height="288" key="GridCell.Tab.1.bottom/0.23.1440.788@0.23.1440.788" timestamp="1577400109667" />
     <state width="1386" height="240" key="GridCell.Tab.1.bottom/0.23.1440.792@0.23.1440.792" timestamp="1576955945250" />
-    <state width="1386" height="240" key="GridCell.Tab.1.center" timestamp="1576956754864">
+    <state width="1386" height="288" key="GridCell.Tab.1.center" timestamp="1577400109667">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
+    <state width="1398" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577220758871" />
     <state width="699" height="246" key="GridCell.Tab.1.center/0.23.1440.779@0.23.1440.779" timestamp="1576448837331" />
     <state width="978" height="240" key="GridCell.Tab.1.center/0.23.1440.783@0.23.1440.783" timestamp="1576531981087" />
-    <state width="1386" height="240" key="GridCell.Tab.1.center/0.23.1440.788@0.23.1440.788" timestamp="1576956754864" />
+    <state width="1386" height="288" key="GridCell.Tab.1.center/0.23.1440.788@0.23.1440.788" timestamp="1577400109667" />
     <state width="1386" height="240" key="GridCell.Tab.1.center/0.23.1440.792@0.23.1440.792" timestamp="1576955945247" />
-    <state width="1386" height="240" key="GridCell.Tab.1.left" timestamp="1576956754862">
+    <state width="1386" height="288" key="GridCell.Tab.1.left" timestamp="1577400109666">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
+    <state width="1398" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577220758870" />
     <state width="699" height="246" key="GridCell.Tab.1.left/0.23.1440.779@0.23.1440.779" timestamp="1576448837330" />
     <state width="978" height="240" key="GridCell.Tab.1.left/0.23.1440.783@0.23.1440.783" timestamp="1576531981086" />
-    <state width="1386" height="240" key="GridCell.Tab.1.left/0.23.1440.788@0.23.1440.788" timestamp="1576956754862" />
+    <state width="1386" height="288" key="GridCell.Tab.1.left/0.23.1440.788@0.23.1440.788" timestamp="1577400109666" />
     <state width="1386" height="240" key="GridCell.Tab.1.left/0.23.1440.792@0.23.1440.792" timestamp="1576955945244" />
-    <state width="1386" height="240" key="GridCell.Tab.1.right" timestamp="1576956754865">
+    <state width="1386" height="288" key="GridCell.Tab.1.right" timestamp="1577400109667">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
+    <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577220758871" />
     <state width="699" height="246" key="GridCell.Tab.1.right/0.23.1440.779@0.23.1440.779" timestamp="1576448837332" />
     <state width="978" height="240" key="GridCell.Tab.1.right/0.23.1440.783@0.23.1440.783" timestamp="1576531981088" />
-    <state width="1386" height="240" key="GridCell.Tab.1.right/0.23.1440.788@0.23.1440.788" timestamp="1576956754865" />
+    <state width="1386" height="288" key="GridCell.Tab.1.right/0.23.1440.788@0.23.1440.788" timestamp="1577400109667" />
     <state width="1386" height="240" key="GridCell.Tab.1.right/0.23.1440.792@0.23.1440.792" timestamp="1576955945248" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1576446070415">
       <screen x="0" y="23" width="1440" height="779" />
     </state>
     <state x="208" y="23" key="SettingsEditor/0.23.1440.779@0.23.1440.779" timestamp="1576446070415" />
-    <state x="433" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1576520905163">
-      <screen x="0" y="23" width="1440" height="783" />
+    <state width="714" height="382" key="XDebugger.FullValuePopup" timestamp="1577221690650">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state width="714" height="382" key="XDebugger.FullValuePopup/0.23.1440.788@0.23.1440.788" timestamp="1577221690650" />
+    <state x="433" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1577220820436">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state x="433" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.773@0.23.1440.773" timestamp="1576352583470" />
     <state x="433" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.783@0.23.1440.783" timestamp="1576520905163" />
-    <state x="433" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.788@0.23.1440.788" timestamp="1576476135118" />
+    <state x="433" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.788@0.23.1440.788" timestamp="1577220820436" />
     <state x="384" y="204" key="git4idea.merge.GitPullDialog" timestamp="1576526742605">
       <screen x="0" y="23" width="1440" height="783" />
     </state>
     <state x="384" y="204" key="git4idea.merge.GitPullDialog/0.23.1440.783@0.23.1440.783" timestamp="1576526742605" />
+    <state x="422" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1577128918081">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="422" y="23" key="refactoring.ChangeSignatureDialog/0.23.1440.788@0.23.1440.788" timestamp="1577128918081" />
     <state x="379" y="130" width="670" height="676" key="search.everywhere.popup" timestamp="1576523713696">
       <screen x="0" y="23" width="1440" height="783" />
     </state>

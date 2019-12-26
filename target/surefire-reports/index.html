@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 2 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLimitParam(8)">CheckLimitParam(8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestRequestedParamsIndependentResponses" class="method navigator-link" hash-for-method="CheckResponseLatLon">CheckResponseLatLon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckDefaultNOHoursJSONSchema">CheckDefaultNOHoursJSONSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckDefaultNOHoursWithExtraJSONSchema">CheckDefaultNOHoursWithExtraJSONSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckDefaultWithHoursExtraJSONSchema">CheckDefaultWithHoursExtraJSONSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckDefaultWithHoursJSONSchema">CheckDefaultWithHoursJSONSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLangURL(invalid, yandex.com/pogoda/)">CheckLangURL(invalid, yandex.com/pogoda/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLangURL(be_BY, yandex.by/pogoda)">CheckLangURL(be_BY, yandex.by/pogoda)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLangURL(tr_TR, yandex.com.tr/hava)">CheckLangURL(tr_TR, yandex.com.tr/hava)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLangURL(en_US, yandex.com/pogoda/)">CheckLangURL(en_US, yandex.com/pogoda/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLangURL(ru_UA, yandex.ua/pogoda)">CheckLangURL(ru_UA, yandex.ua/pogoda)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLangURL(kk_KZ, yandex.kz/pogoda)">CheckLangURL(kk_KZ, yandex.kz/pogoda)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLangURL(uk_UA, yandex.ua/pogoda)">CheckLangURL(uk_UA, yandex.ua/pogoda)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLangURL(ru_RU, yandex.ru/pogoda)">CheckLangURL(ru_RU, yandex.ru/pogoda)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLimitParam(4)">CheckLimitParam(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLimitParam(5)">CheckLimitParam(5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLimitParam(2)">CheckLimitParam(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLimitParam(-1)">CheckLimitParam(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLimitParam(6)">CheckLimitParam(6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLimitParam(3)">CheckLimitParam(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLimitParam(ha)">CheckLimitParam(ha)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckLimitParam(7)">CheckLimitParam(7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestRequestedParamsIndependentResponses" class="method navigator-link" hash-for-method="CheckServerTime">CheckServerTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="getforecast.TestAPIYandexForecast" class="method navigator-link" hash-for-method="CheckValidAuthorization">CheckValidAuthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">getforecast.TestRequestedParamsIndependentResponses</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckResponseLatLon">
+                  </a> <!-- CheckResponseLatLon -->
+                  <span class="method-name">CheckResponseLatLon</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response and request lat are different expected [55.839906] but found [55.839905]
+	at getforecast.TestRequestedParamsIndependentResponses.CheckResponseLatLon(TestRequestedParamsIndependentResponses.java:41)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">getforecast.TestAPIYandexForecast</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLimitParam(8)">
+                  </a> <!-- CheckLimitParam(8) -->
+                  <span class="method-name">CheckLimitParam</span>
+                  <span class="parameters">(8)</span>
+                  <div class="stack-trace">java.lang.AssertionError: limit = 8 expected [false] but found [true]
+	at getforecast.TestAPIYandexForecast.CheckLimitParam(TestAPIYandexForecast.java:162)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">getforecast.TestAPIYandexForecast</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDefaultNOHoursJSONSchema">
+                  </a> <!-- CheckDefaultNOHoursJSONSchema -->
+                  <span class="method-name">CheckDefaultNOHoursJSONSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDefaultNOHoursWithExtraJSONSchema">
+                  </a> <!-- CheckDefaultNOHoursWithExtraJSONSchema -->
+                  <span class="method-name">CheckDefaultNOHoursWithExtraJSONSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDefaultWithHoursExtraJSONSchema">
+                  </a> <!-- CheckDefaultWithHoursExtraJSONSchema -->
+                  <span class="method-name">CheckDefaultWithHoursExtraJSONSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDefaultWithHoursJSONSchema">
+                  </a> <!-- CheckDefaultWithHoursJSONSchema -->
+                  <span class="method-name">CheckDefaultWithHoursJSONSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLangURL(invalid, yandex.com/pogoda/)">
+                  </a> <!-- CheckLangURL(invalid, yandex.com/pogoda/) -->
+                  <span class="method-name">CheckLangURL</span>
+                  <span class="parameters">(invalid, yandex.com/pogoda/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLangURL(be_BY, yandex.by/pogoda)">
+                  </a> <!-- CheckLangURL(be_BY, yandex.by/pogoda) -->
+                  <span class="method-name">CheckLangURL</span>
+                  <span class="parameters">(be_BY, yandex.by/pogoda)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLangURL(tr_TR, yandex.com.tr/hava)">
+                  </a> <!-- CheckLangURL(tr_TR, yandex.com.tr/hava) -->
+                  <span class="method-name">CheckLangURL</span>
+                  <span class="parameters">(tr_TR, yandex.com.tr/hava)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLangURL(en_US, yandex.com/pogoda/)">
+                  </a> <!-- CheckLangURL(en_US, yandex.com/pogoda/) -->
+                  <span class="method-name">CheckLangURL</span>
+                  <span class="parameters">(en_US, yandex.com/pogoda/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLangURL(ru_UA, yandex.ua/pogoda)">
+                  </a> <!-- CheckLangURL(ru_UA, yandex.ua/pogoda) -->
+                  <span class="method-name">CheckLangURL</span>
+                  <span class="parameters">(ru_UA, yandex.ua/pogoda)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLangURL(kk_KZ, yandex.kz/pogoda)">
+                  </a> <!-- CheckLangURL(kk_KZ, yandex.kz/pogoda) -->
+                  <span class="method-name">CheckLangURL</span>
+                  <span class="parameters">(kk_KZ, yandex.kz/pogoda)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLangURL(uk_UA, yandex.ua/pogoda)">
+                  </a> <!-- CheckLangURL(uk_UA, yandex.ua/pogoda) -->
+                  <span class="method-name">CheckLangURL</span>
+                  <span class="parameters">(uk_UA, yandex.ua/pogoda)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLangURL(ru_RU, yandex.ru/pogoda)">
+                  </a> <!-- CheckLangURL(ru_RU, yandex.ru/pogoda) -->
+                  <span class="method-name">CheckLangURL</span>
+                  <span class="parameters">(ru_RU, yandex.ru/pogoda)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLimitParam(4)">
+                  </a> <!-- CheckLimitParam(4) -->
+                  <span class="method-name">CheckLimitParam</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLimitParam(5)">
+                  </a> <!-- CheckLimitParam(5) -->
+                  <span class="method-name">CheckLimitParam</span>
+                  <span class="parameters">(5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLimitParam(2)">
+                  </a> <!-- CheckLimitParam(2) -->
+                  <span class="method-name">CheckLimitParam</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLimitParam(-1)">
+                  </a> <!-- CheckLimitParam(-1) -->
+                  <span class="method-name">CheckLimitParam</span>
+                  <span class="parameters">(-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLimitParam(6)">
+                  </a> <!-- CheckLimitParam(6) -->
+                  <span class="method-name">CheckLimitParam</span>
+                  <span class="parameters">(6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLimitParam(3)">
+                  </a> <!-- CheckLimitParam(3) -->
+                  <span class="method-name">CheckLimitParam</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLimitParam(ha)">
+                  </a> <!-- CheckLimitParam(ha) -->
+                  <span class="method-name">CheckLimitParam</span>
+                  <span class="parameters">(ha)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckLimitParam(7)">
+                  </a> <!-- CheckLimitParam(7) -->
+                  <span class="method-name">CheckLimitParam</span>
+                  <span class="parameters">(7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckValidAuthorization">
+                  </a> <!-- CheckValidAuthorization -->
+                  <span class="method-name">CheckValidAuthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">getforecast.TestRequestedParamsIndependentResponses</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckServerTime">
+                  </a> <!-- CheckServerTime -->
+                  <span class="method-name">CheckServerTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;getforecast.TestRequestedParamsIndependentResponses&quot;/&gt;
+      &lt;class name=&quot;getforecast.TestAPIYandexForecast&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CheckResponseLatLon')
+data.setCell(0, 2, 'getforecast.TestRequestedParamsIndependentResponses')
+data.setCell(0, 3, 3630);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CheckDefaultNOHoursJSONSchema')
+data.setCell(1, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(1, 3, 2049);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckDefaultNOHoursWithExtraJSONSchema')
+data.setCell(2, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(2, 3, 556);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CheckServerTime')
+data.setCell(3, 2, 'getforecast.TestRequestedParamsIndependentResponses')
+data.setCell(3, 3, 447);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CheckDefaultWithHoursExtraJSONSchema')
+data.setCell(4, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(4, 3, 340);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CheckLangURL')
+data.setCell(5, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(5, 3, 327);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CheckLimitParam')
+data.setCell(6, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(6, 3, 313);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CheckLangURL')
+data.setCell(7, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(7, 3, 285);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CheckLangURL')
+data.setCell(8, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(8, 3, 259);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CheckDefaultWithHoursJSONSchema')
+data.setCell(9, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(9, 3, 256);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CheckLangURL')
+data.setCell(10, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(10, 3, 256);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'CheckLangURL')
+data.setCell(11, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(11, 3, 242);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CheckLangURL')
+data.setCell(12, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(12, 3, 227);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'CheckLangURL')
+data.setCell(13, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(13, 3, 223);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'CheckLimitParam')
+data.setCell(14, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(14, 3, 205);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'CheckLangURL')
+data.setCell(15, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(15, 3, 204);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'CheckLimitParam')
+data.setCell(16, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(16, 3, 199);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'CheckLimitParam')
+data.setCell(17, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(17, 3, 198);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'CheckLimitParam')
+data.setCell(18, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(18, 3, 195);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'CheckLimitParam')
+data.setCell(19, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(19, 3, 188);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'CheckLimitParam')
+data.setCell(20, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(20, 3, 184);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'CheckLimitParam')
+data.setCell(21, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(21, 3, 173);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'CheckValidAuthorization')
+data.setCell(22, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(22, 3, 171);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'CheckLimitParam')
+data.setCell(23, 2, 'getforecast.TestAPIYandexForecast')
+data.setCell(23, 3, 161);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">getforecast.TestRequestedParamsIndependentResponses</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CheckResponseLatLon</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckServerTime</span>
+                <span class="method-start">3634 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">getforecast.TestAPIYandexForecast</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CheckDefaultNOHoursJSONSchema</span>
+                <span class="method-start">4083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckDefaultNOHoursWithExtraJSONSchema</span>
+                <span class="method-start">6132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckDefaultWithHoursExtraJSONSchema</span>
+                <span class="method-start">6689 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckDefaultWithHoursJSONSchema</span>
+                <span class="method-start">7030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLangURL(ru_RU, yandex.ru/pogoda)</span>
+                <span class="method-start">7292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLangURL(ru_UA, yandex.ua/pogoda)</span>
+                <span class="method-start">7549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLangURL(uk_UA, yandex.ua/pogoda)</span>
+                <span class="method-start">7834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLangURL(be_BY, yandex.by/pogoda)</span>
+                <span class="method-start">8063 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLangURL(kk_KZ, yandex.kz/pogoda)</span>
+                <span class="method-start">8322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLangURL(tr_TR, yandex.com.tr/hava)</span>
+                <span class="method-start">8649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLangURL(en_US, yandex.com/pogoda/)</span>
+                <span class="method-start">8892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLangURL(invalid, yandex.com/pogoda/)</span>
+                <span class="method-start">9116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLimitParam(2)</span>
+                <span class="method-start">9321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLimitParam(3)</span>
+                <span class="method-start">9494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLimitParam(4)</span>
+                <span class="method-start">9807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLimitParam(5)</span>
+                <span class="method-start">9968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLimitParam(6)</span>
+                <span class="method-start">10173 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLimitParam(7)</span>
+                <span class="method-start">10357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CheckLimitParam(8)</span>
+                <span class="method-start">10556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLimitParam(-1)</span>
+                <span class="method-start">10745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckLimitParam(ha)</span>
+                <span class="method-start">10940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckValidAuthorization</span>
+                <span class="method-start">11139 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="22" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-24T21:01:26Z" name="Command line suite" finished-at="2019-12-24T21:01:38Z" duration-ms="11330">
+    <groups>
+    </groups>
+    <test started-at="2019-12-24T21:01:26Z" name="Command line test" finished-at="2019-12-24T21:01:38Z" duration-ms="11330">
+      <class name="getforecast.TestAPIYandexForecast">
+        <test-method signature="CheckDefaultNOHoursJSONSchema()[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:30Z" name="CheckDefaultNOHoursJSONSchema" finished-at="2019-12-25T00:01:32Z" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDefaultNOHoursJSONSchema -->
+        <test-method signature="CheckDefaultNOHoursWithExtraJSONSchema()[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:32Z" name="CheckDefaultNOHoursWithExtraJSONSchema" finished-at="2019-12-25T00:01:33Z" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDefaultNOHoursWithExtraJSONSchema -->
+        <test-method signature="CheckDefaultWithHoursExtraJSONSchema()[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:33Z" name="CheckDefaultWithHoursExtraJSONSchema" finished-at="2019-12-25T00:01:33Z" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDefaultWithHoursExtraJSONSchema -->
+        <test-method signature="CheckDefaultWithHoursJSONSchema()[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:33Z" name="CheckDefaultWithHoursJSONSchema" finished-at="2019-12-25T00:01:33Z" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDefaultWithHoursJSONSchema -->
+        <test-method signature="CheckLangURL(java.lang.String, java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:34Z" name="CheckLangURL" data-provider="testLang" finished-at="2019-12-25T00:01:34Z" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ru_RU]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yandex.ru/pogoda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLangURL -->
+        <test-method signature="CheckLangURL(java.lang.String, java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:34Z" name="CheckLangURL" data-provider="testLang" finished-at="2019-12-25T00:01:34Z" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ru_UA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yandex.ua/pogoda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLangURL -->
+        <test-method signature="CheckLangURL(java.lang.String, java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:34Z" name="CheckLangURL" data-provider="testLang" finished-at="2019-12-25T00:01:34Z" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uk_UA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yandex.ua/pogoda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLangURL -->
+        <test-method signature="CheckLangURL(java.lang.String, java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:34Z" name="CheckLangURL" data-provider="testLang" finished-at="2019-12-25T00:01:35Z" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[be_BY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yandex.by/pogoda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLangURL -->
+        <test-method signature="CheckLangURL(java.lang.String, java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:35Z" name="CheckLangURL" data-provider="testLang" finished-at="2019-12-25T00:01:35Z" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kk_KZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yandex.kz/pogoda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLangURL -->
+        <test-method signature="CheckLangURL(java.lang.String, java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:35Z" name="CheckLangURL" data-provider="testLang" finished-at="2019-12-25T00:01:35Z" duration-ms="242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tr_TR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yandex.com.tr/hava]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLangURL -->
+        <test-method signature="CheckLangURL(java.lang.String, java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:35Z" name="CheckLangURL" data-provider="testLang" finished-at="2019-12-25T00:01:35Z" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en_US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yandex.com/pogoda/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLangURL -->
+        <test-method signature="CheckLangURL(java.lang.String, java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:35Z" name="CheckLangURL" data-provider="testLang" finished-at="2019-12-25T00:01:36Z" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yandex.com/pogoda/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLangURL -->
+        <test-method signature="CheckLimitParam(java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:36Z" name="CheckLimitParam" data-provider="testLimits" finished-at="2019-12-25T00:01:36Z" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLimitParam -->
+        <test-method signature="CheckLimitParam(java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:36Z" name="CheckLimitParam" data-provider="testLimits" finished-at="2019-12-25T00:01:36Z" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLimitParam -->
+        <test-method signature="CheckLimitParam(java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:36Z" name="CheckLimitParam" data-provider="testLimits" finished-at="2019-12-25T00:01:36Z" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLimitParam -->
+        <test-method signature="CheckLimitParam(java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:36Z" name="CheckLimitParam" data-provider="testLimits" finished-at="2019-12-25T00:01:36Z" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLimitParam -->
+        <test-method signature="CheckLimitParam(java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:36Z" name="CheckLimitParam" data-provider="testLimits" finished-at="2019-12-25T00:01:37Z" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLimitParam -->
+        <test-method signature="CheckLimitParam(java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:37Z" name="CheckLimitParam" data-provider="testLimits" finished-at="2019-12-25T00:01:37Z" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLimitParam -->
+        <test-method signature="CheckLimitParam(java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:37Z" name="CheckLimitParam" data-provider="testLimits" finished-at="2019-12-25T00:01:37Z" duration-ms="188" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[limit = 8 expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: limit = 8 expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at getforecast.TestAPIYandexForecast.CheckLimitParam(TestAPIYandexForecast.java:162)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLimitParam -->
+        <test-method signature="CheckLimitParam(java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:37Z" name="CheckLimitParam" data-provider="testLimits" finished-at="2019-12-25T00:01:37Z" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLimitParam -->
+        <test-method signature="CheckLimitParam(java.lang.String)[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:37Z" name="CheckLimitParam" data-provider="testLimits" finished-at="2019-12-25T00:01:37Z" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLimitParam -->
+        <test-method signature="CheckValidAuthorization()[pri:0, instance:getforecast.TestAPIYandexForecast@23faf8f2]" started-at="2019-12-25T00:01:37Z" name="CheckValidAuthorization" finished-at="2019-12-25T00:01:38Z" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidAuthorization -->
+      </class> <!-- getforecast.TestAPIYandexForecast -->
+      <class name="getforecast.TestRequestedParamsIndependentResponses">
+        <test-method signature="CheckResponseLatLon()[pri:0, instance:getforecast.TestRequestedParamsIndependentResponses@71bbf57e]" started-at="2019-12-25T00:01:26Z" name="CheckResponseLatLon" finished-at="2019-12-25T00:01:30Z" duration-ms="3630" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Response and request lat are different expected [55.839906] but found [55.839905]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Response and request lat are different expected [55.839906] but found [55.839905]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at getforecast.TestRequestedParamsIndependentResponses.CheckResponseLatLon(TestRequestedParamsIndependentResponses.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseLatLon -->
+        <test-method signature="CheckServerTime()[pri:0, instance:getforecast.TestRequestedParamsIndependentResponses@71bbf57e]" started-at="2019-12-25T00:01:30Z" name="CheckServerTime" finished-at="2019-12-25T00:01:30Z" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckServerTime -->
+      </class> <!-- getforecast.TestRequestedParamsIndependentResponses -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

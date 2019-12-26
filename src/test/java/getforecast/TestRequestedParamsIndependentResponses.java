@@ -17,7 +17,7 @@ public class TestRequestedParamsIndependentResponses {
     @Test
     public void CheckServerTime(){
         ValidatableResponse response = given().spec(APIRequestBuilder.SetDefaultRequest()).when().get().then();
-        Long serverUnixTime = response.extract().jsonPath().getLong("now") - 10800; //Moscow Time at server ;)
+        Long serverUnixTime = response.extract().jsonPath().getLong("now") -10800; //Moscow TimeZone at server ;)
         String serverUTCStringTime = response.extract().jsonPath().getString("now_dt").substring(0,19);
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
         Long serverUTCDataTime = 0L;
@@ -27,19 +27,18 @@ public class TestRequestedParamsIndependentResponses {
             e.printStackTrace();
         }
         Assert.assertEquals(serverUnixTime,serverUTCDataTime);
-        System.out.printf("\nnow and now_dt are equal \n");
+        System.out.printf("\nnow and now_dt are equal at response \n");
     }
-    //INVALID Test return lat and lon belong to some point of nearest locality and can be different to requested lan and lon
     @Test
     public void CheckResponseLatLon(){
         ValidatableResponse response = given().spec(APIRequestBuilder.SetDefaultRequest()).when().get().then();
-        String responseLat = response.extract().jsonPath().getString("info.lat");
-        String responseLon = response.extract().jsonPath().getString("info.lon");
+        Float responseLat = response.extract().jsonPath().getFloat("info.lat");
+        Float responseLon = response.extract().jsonPath().getFloat("info.lon");
         QueryableRequestSpecification queryable = SpecificationQuerier.query(APIRequestBuilder.SetDefaultRequest());
-        String requestLat = queryable.getRequestParams().get("lat");
-        String requestLon = queryable.getRequestParams().get("lon");
-        Assert.assertEquals(responseLat, requestLat);
-        Assert.assertEquals(responseLon, requestLon);
+        Float requestLat = Float.parseFloat(queryable.getRequestParams().get("lat"));
+        Float requestLon = Float.parseFloat(queryable.getRequestParams().get("lon"));
+        Assert.assertEquals(responseLat, requestLat, "Response and request lat are different");
+        Assert.assertEquals(responseLon, requestLon, "Response and request lon are different");
         System.out.printf("\nlat and lon from response are equal to requested \n");
     }
 }
